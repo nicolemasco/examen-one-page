@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 * {
   margin: 0;
@@ -33,7 +34,7 @@ body {
 
 /*personaizacion menu hamburguesa*/
 .navbar-toggler {
-  background-color: #8d7c71;
+  background-color: #718d78;
   border: 3px solid #fff;
 }
 
@@ -43,7 +44,7 @@ body {
 }
 
 .navbar-toggler:hover {
-  background-color: rgb(112, 101, 90);
+  background-color: rgb(90, 112, 97);
 }
 
 .navbar-nav, .dropdown-menu {
@@ -78,6 +79,7 @@ p {
   margin: 5rem 0;
 }
 
+/*sección 1*/
 #experiencias {
   padding: 60px 0 80px;
 }
@@ -115,9 +117,14 @@ p {
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
 }
 
-.titulajes {
-  color: #bb937b;
+.titulajes1 {
   font-size: 2.5rem;
+  color: #fff;
+}
+
+.titulajes2 {
+  font-size: 2.5rem;
+  color: #c28353;
 }
 
 .fondo2 {
@@ -139,6 +146,34 @@ p {
   color: white;
 }
 
+.contact-section {
+  background-color: #7f513c;
+  -webkit-clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+  padding-bottom: 80px;
+}
+
+.icono-red {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bb937b;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  font-size: 2.5rem;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.icono-red:hover {
+  background-color: #fff;
+  color: #333;
+  transform: scale(1.1);
+}
+
+/*scroll to top*/
 .goto-top {
   position: fixed;
   bottom: 30px;
@@ -151,7 +186,7 @@ p {
   height: 50px;
 }
 
-/*Footer*/
+/*footer*/
 footer {
   color: white;
   padding: 20px;

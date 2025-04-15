@@ -13,11 +13,12 @@ html {
 /*variables*/
 $color-principal: #7f513c;
 $color-secundario: #bb937b;
+$color-titulajes1: #fff;
+$color-titulajes2: #c28353;;
 $color-fondo-banner: #928372;
 $color-footer: #26241c;
 $color-footer-texto: #000;
 $color-btn-hover: #b9b9b9;
-$color-whatsapp: #25d366;
 $font-principal: "Libre Baskerville", serif;
 $sombra-interna: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
 
@@ -37,7 +38,7 @@ body {
 }
 
 .nav-item a:hover {
-  color: #c28353;
+  color: $color-titulajes2;
 }
 
 .navbar-toggler:focus {
@@ -47,7 +48,7 @@ body {
 /*personaizacion menu hamburguesa*/
 
 .navbar-toggler{
-  background-color: #8d7c71;
+  background-color: #718d78;
   border: 3px solid #fff;
 }
 
@@ -57,7 +58,7 @@ body {
 }
 
 .navbar-toggler:hover{
-  background-color: rgb(112, 101, 90);
+  background-color: rgb(90, 112, 97);
 }
 
 .navbar-nav, .dropdown-menu {
@@ -92,7 +93,7 @@ p {
   margin: 5rem 0;
 }
 
-// Sección 1
+/*sección 1*/
 #experiencias {
   padding: 60px 0 80px;
 
@@ -131,9 +132,14 @@ p {
   }
 }
 
-.titulajes {
-  color: $color-secundario;
+.titulajes1{
   font-size: 2.5rem;
+  color: $color-titulajes1;
+}
+
+.titulajes2 {
+  font-size: 2.5rem;
+  color: $color-titulajes2;
 }
 
 .fondo2 {
@@ -156,7 +162,35 @@ p {
   }
 }
 
-// Scroll to top
+.contact-section {
+  background-color: $color-principal;
+  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+  padding-bottom: 80px;
+}
+
+.icono-red {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-secundario;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 80px;              
+  height: 80px;             
+  font-size: 2.5rem;   
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.icono-red:hover {
+  background-color: #fff;
+  color: #333;
+  transform: scale(1.1);
+}
+
+
+
+/*scroll to top*/
 .goto-top {
   position: fixed;
   bottom: 30px;
@@ -170,7 +204,7 @@ p {
   }
 }
 
-/*Footer*/
+/*footer*/
 footer {
   color: white;
   padding: 20px;
