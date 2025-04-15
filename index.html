@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Examen One Page</title>
+    <link rel="icon" href="img/favicon.png"> <!--ICONO-->
+
+    <!-- carga de la libreria ANIMATE.CSS CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/fa2ce6a4c8.js" crossorigin="anonymous"></script> <!--hamburguesa-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"> <!--iconos-->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet"> <!--fuente-->
+    <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body id="inicio">
+
+    <!--header, banner web-->
+
+    <header>
+        <!--menu de navegacion-->
+        <!--clase de menu fijo = fixed-top-->
+        <nav class="navbar navbar-expand-lg navigation-wrap">
+            <!--contenedor-->
+            <div class="container">
+                <!--logo de empresa-->
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="logo 1820" class="img-fluid" width="200px">
+                </a>
+
+                <!--menu hamburguesa-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <!--icono 3 lineas horizontales-->
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!--estructura del menu (contenido)-->
+                <div class="collapse navbar-collapse" id="menu">
+
+                    <!--listado del menu-->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experiencias">Experiencias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#video">Video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sonido">Sonido</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactanos">Contáctenos</a>
+                        </li>
+
+                        <!-- Submenú de enlaces externos -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="submenuEnlaces" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                              Más info
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="submenuEnlaces">
+                              <li><a class="dropdown-item" href="https://es.wikipedia.org/wiki/Titanic" target="_blank">Wikipedia</a></li>
+                              <li><a class="dropdown-item" href="https://www.britannica.com/topic/Titanic" target="_blank">Britannica</a></li>
+                            </ul>
+                          </li>
+                          
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <!--seccion 1, BANNER-->
+    <section class="banner-section espacio">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="text-white titulo">TITANIC: La exhibición de artefactos</h1>
+                    <p class="container text-white pt-5">
+                        Experimente la maravilla y la tragedia del transatlántico más famoso del mundo, el Titanic. Con
+                        más de 35 millones
+                        de visitantes en todo el mundo, la exposición es una de las más concurridas de la historia.
+                    </p>
+
+                    <div class="text-center my-5">
+                        <a href="https://www.titaniclasvegas.com/wp-content/uploads/2024/07/titanic_generic_tg_elementary-2021-final-compressed.pdf"
+                            target="_blank" class="btn btn-light"><i class="bi bi-file-earmark-pdf-fill"></i>
+                            Ver Guía Educativa del Titanic (PDF)</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--seccion 2, cards de experiencias-->
+    <section class="container-fluid seccion4 py-5">
+        <div class="container text-center" id="experiencias">
+
+            <div class="row">
+                <h2 class="titulajes text-center">Experiencia en el museo</h2>
+
+                <div class="col-md-4 pb-4" id="experiencia">
+                    <div class="card">
+                        <img src="/img/artefactos.png" class="card-img-top img-fluid" alt="Artefactos">
+                        <div class="card-body">
+                            <h5 class="card-title">Artefactos</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 pb-4" id="experiencia">
+                    <div class="card">
+                        <img src="/img/escaleras.png" class="card-img-top img-fluid" alt="Escaleras">
+                        <div class="card-body">
+                            <h5 class="card-title">La Gran Escalera</h5>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 pb-4" id="experiencia">
+                    <div class="card">
+                        <img src="/img/iceberg.png" class="card-img-top img-fluid" alt="Iceberg">
+                        <div class="card-body">
+                            <h5 class="card-title">Toca un iceberg</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4 pb-4" id="experiencia">
+                    <div class="card">
+                        <img src="/img/informacion.png" class="card-img-top img-fluid" alt="informacion">
+                        <div class="card-body">
+                            <h5 class="card-title">Historias</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 pb-4" id="experiencia">
+                    <div class="card">
+                        <img src="/img/piece.png" class="card-img-top img-fluid" alt="La Pieza Grande">
+                        <div class="card-body">
+                            <h5 class="card-title">La Pieza Grande</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 pb-4" id="experiencia">
+                    <div class="card">
+                        <img src="/img/store.jpg" class="card-img-top img-fluid" alt="Tienda">
+                        <div class="card-body">
+                            <h5 class="card-title">Recuerdos</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--seccion 3, video YouTube-->
+    <section class="container-fluid fondo2" id="video">
+        <h2 class="titulajes text-center pt-5 text-white">Video de la exhibición de objetos del Titanic más grande del
+            mundo</h2>
+        <div class="container">
+
+            <p class="container text-white pt-5">
+                Descubre la exhibición más grande del mundo sobre objetos del Titanic, presentada en 4K. A través de
+                impresionantes imágenes, podrás ver artefactos históricos recuperados del naufragio y experimentar la
+                magnitud de esta tragedia. Esta exhibición única te permite conectarte con la historia del Titanic y
+                explorar su legado a través de objetos auténticos, brindando una experiencia visual inigualable.
+            </p>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-5 order-md-1 d-flex justify-content-center">
+                    <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/eQq5YQn7IIk?si=iSPdN6kPB4N39gGi"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- seccion 4, audio MP3-->
+    <section class="container-fluid py-5" id="sonido">
+        <div class="content">
+            <h2 class="titulajes text-center pt-5 text-white">Sonidos del Titanic</h2>
+            <p class="text-center text-white">Sumérgete en la atmósfera del Titanic con los sonidos del océano y el
+                ambiente del mar durante su viaje inaugural.</p>
+            <div class="text-center">
+                <audio controls>
+                    <source src="audio/oceano.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+    </section>
+
+
+    <!--seccion 5, mapa Google-->
+    <section class="bg-light">
+        <h2 class="titulajes text-center pt-5">Mapa de ubicación</h2>
+        <div class="pt-5">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6447.832298066287!2d-115.17658499999999!3d36.095532!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c5ce1690f7f5%3A0x7db25ae1ed3f9ce6!2s3900 S Las Vegas Blvd%2C Las Vegas%2C NV 89119!5e0!3m2!1sen!2sus!4v1743226404161!5m2!1sen!2sus"
+                width="100%" height="600" allowfullscreen="" loading="lazy">
+            </iframe>
+
+        </div>
+    </section>
+
+    <!--seccion 6, contactanos-->
+
+    <section class="espacio2 fondo2" id="contactanos">
+        <div class="">
+            <div class="container">
+                <h3 class="titulajes text-center pt-5 text-white">Contáctanos</h3>
+                <div class="row text-center">
+                    <p class="pt-5 pb-5 text-white">¿Tienes alguna pregunta o inquietud? No dudes en ponerte en contacto
+                        con nosotros. Nuestro equipo está aquí para ayudarte con cualquier consulta o información
+                        adicional que necesites. Puedes enviarnos un mensaje a través de nuestro formulario o llamarnos
+                        directamente. Estamos comprometidos a brindarte la mejor experiencia posible. ¡Esperamos poder
+                        ayudarte pronto!</p>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <a data-scroll id="flechabtn" class="goto-top" href="#inicio" title="Ir al inicio" onclick="topFunction()">
+        <img src="/img/flecha.png" class="img-fluid" alt="flecha para ir arriba">
+    </a>
+
+    <footer class="container-fluid1 fondo1">
+        <h6 class="text-center fw-bold">Derechos Reservados 2025</h6>
+        <h6 class="text-center pt-2 fw-bold">Nicole Masco</h6>
+
+
+
+    </footer>
+
+
+    <!-- agregar Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Requisito de cargar para esconder el botón Scrolltop por medio de Jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
