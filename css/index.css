@@ -100,7 +100,6 @@ p {
   align-items: center;
 }
 
-.btn-dark,
 .btn-light {
   color: #1a1a1a;
   font-size: 1rem;
@@ -111,7 +110,6 @@ p {
   transition: all 0.3s ease-in-out;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-.btn-dark:hover,
 .btn-light:hover {
   background-color: #b9b9b9;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
@@ -129,7 +127,7 @@ p {
 
 .fondo2 {
   padding: 100px 0;
-  color: white;
+  color: #fff;
   background-color: #7f513c;
 }
 
@@ -143,7 +141,7 @@ p {
 }
 #sonido .content {
   text-align: center;
-  color: white;
+  color: #fff;
 }
 
 .contact-section {
@@ -188,7 +186,7 @@ p {
 
 /*footer*/
 footer {
-  color: white;
+  color: #fff;
   padding: 20px;
   background-color: #26241c;
 }

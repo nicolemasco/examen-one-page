@@ -12,6 +12,7 @@ html {
 
 /*variables*/
 $color-principal: #7f513c;
+$color-complementario: #fff;
 $color-secundario: #bb937b;
 $color-titulajes1: #fff;
 $color-titulajes2: #c28353;;
@@ -49,7 +50,7 @@ body {
 
 .navbar-toggler{
   background-color: #718d78;
-  border: 3px solid #fff;
+  border: 3px solid $color-complementario;
 }
 
 .navbar-toggler i {
@@ -115,7 +116,6 @@ p {
   align-items: center;
 }
 
-.btn-dark,
 .btn-light {
   color: #1a1a1a;
   font-size: 1rem;
@@ -144,7 +144,7 @@ p {
 
 .fondo2 {
   padding: 100px 0;
-  color: white;
+  color: $color-complementario;
   background-color: $color-principal;
 }
 
@@ -158,7 +158,7 @@ p {
 
   .content {
     text-align: center;
-    color: white;
+    color: $color-complementario;
   }
 }
 
@@ -173,7 +173,7 @@ p {
   align-items: center;
   justify-content: center;
   background-color: $color-secundario;
-  border: 2px solid #fff;
+  border: 2px solid $color-complementario;
   border-radius: 50%;
   width: 80px;              
   height: 80px;             
@@ -183,7 +183,7 @@ p {
 }
 
 .icono-red:hover {
-  background-color: #fff;
+  background-color: $color-complementario;
   color: #333;
   transform: scale(1.1);
 }
@@ -206,7 +206,7 @@ p {
 
 /*footer*/
 footer {
-  color: white;
+  color: $color-complementario;
   padding: 20px;
   background-color: $color-footer;
 
