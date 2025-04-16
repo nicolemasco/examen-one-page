@@ -34,17 +34,17 @@ body {
 
 /*personaizacion menu hamburguesa*/
 .navbar-toggler {
-  background-color: #718d78;
+  background-color: #574b44;
   border: 3px solid #fff;
 }
 
 .navbar-toggler i {
-  color: #2e2b28;
+  color: #ffffff;
   font-size: 30px;
 }
 
 .navbar-toggler:hover {
-  background-color: rgb(90, 112, 97);
+  background-color: rgb(53, 39, 25);
 }
 
 .navbar-nav, .dropdown-menu {
